@@ -4,6 +4,8 @@
   top:40%;
   left:40%;
 }*/
+
+
 /*#sprite {
   background: url("cochesOGArtb.png") no-repeat;
   background-position:100px 50px ;
@@ -11,70 +13,73 @@
   height: 100%;
   width: 100%;
 }*/
+
 #carA {
-  margin: 10px;
-  background: url("carA.png") no-repeat;
-  position: absolute;
-  /*display: block;*/
-  height: 50px;
-  width: 65px;
+    margin: 10px;
+    background: url("carA.png") no-repeat;
+    position: absolute;
+    /*display: block;*/
 }
 
 #carB {
-  bottom: 400px;
-  left: -10px;
-  margin: 10px;
-  background: url("carB.png") no-repeat;
-  position: absolute;
-  /*display: block;*/
-  height: 50px;
-  width: 65px;
-  animation-name: race;
-  animation-duration: 5s;
+    bottom: 400px;
+    left: -10px;
+    margin: 10px;
+    background: url("carB.png") no-repeat;
+    position: absolute;
+    /*display: block;*/
+    /*animation-name: race;
+    animation-duration: 5s;*/
 }
+
 #cop {
-  position: absolute;
-  animation-name: coprace;
-  animation-duration: 6s;
-  bottom: 550px;
-  left: -10
+    position: absolute;
+    animation-name: coprace;
+    animation-duration: 6s;
+    bottom: 550px;
+    left: -10
 }
+
 #cop2 {
-  position: absolute;
-  animation-name: coprace;
-  animation-duration: 7s;
-  bottom: 400px;
-  left: -10
+    position: absolute;
+    animation-name: coprace;
+    animation-duration: 7s;
+    bottom: 400px;
+    left: -10
 }
+
 #cop3 {
-  position: absolute;
-  animation-name: coprace;
-  animation-duration: 8s;
-  bottom: 500px;
-  left: -10
+    position: absolute;
+    animation-name: coprace;
+    animation-duration: 8s;
+    bottom: 500px;
+    left: -10
 }
+
 #cop4 {
-  position: absolute;
-  animation-name: coprace;
-  animation-duration: 9s;
+    position: absolute;
+    animation-name: coprace;
+    animation-duration: 9s;
 }
+
 @keyframes race {
-  0% {
-    transform: translate3d(0px, 0px, 0px);
-  }
-   100% {
-    transform: translate3d(1400px, 0px, 0px);
-   }
+    0% {
+        transform: translate3d(0px, 0px, 0px);
+    }
+    100% {
+        transform: translate3d(1400px, 0px, 0px);
+    }
 }
 
 @keyframes coprace {
-  0% {
-    transform: translate3d(0px, 0px, 0px);
-  }
-   100% {
-    transform: translate3d(1400px, 0px, 0px);
-   }
+    0% {
+        transform: translate3d(0px, 0px, 0px);
+    }
+    100% {
+        transform: translate3d(1400px, 0px, 0px);
+    }
 }
+
 
 /*
 #pane {
