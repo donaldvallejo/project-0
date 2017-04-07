@@ -1,0 +1,40 @@
+#plane {
+    height: 50px;
+    position:absolute;
+    top:40%;
+    left:40%;
+}
+
+#carA {
+  margin: 10px;
+  background-position: -18px 0px;
+  background: url("cochesOGArtb.png") no-repeat;
+  height: 45px;
+  width: 67px;
+  text-decoration: none;
+}
+
+#carB {
+  margin: 10px;
+  background-position: 200px 200px;
+  background: url("cochesOGArtb.png") no-repeat;
+  height: 45px;
+  width: 67px;
+}
+
+body{
+  background: black;
+}
+/*
+#pane {
+position:relative;
+width:300px; height:300px;
+border:2px solid red;
+}
+
+#box {
+position:absolute; top:140px; left:140px;
+width:20px; height:20px;
+background-color:black;
+}
+*/
