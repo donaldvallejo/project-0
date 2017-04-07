@@ -1,4 +1,3 @@
-
 setInterval(movePlane, 20);
 var keys = {}
 
@@ -9,7 +8,6 @@ $(document).keydown(function(e) {
 $(document).keyup(function(e) {
     delete keys[e.keyCode];
 });
-
 
 function movePlane() {
     for (var direction in keys) {
