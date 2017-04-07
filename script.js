@@ -21,7 +21,7 @@ function movePlane() {
             $("#carA").animate({top: "-=5"}, 0);
         }
         if (direction == 39) {
-            $("#carA").animate({left: "+=7"}, 0);
+            $("#carA").animate({left: "+=10"}, 0);
         }
         if (direction == 40) {
             $("#carA").animate({top: "+=5"}, 0);

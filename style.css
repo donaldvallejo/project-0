@@ -36,17 +36,17 @@
   0% {
     transform: translate3d(0px, 0px, 0px);
   }
-   25% {
-    transform: translate3d(-50px, -100px, 0px);
+   /*25% {
+    transform: translate3d(250px, 0px, 0px);
   }
    50% {
-    transform: translate3d(0px, 0px, 0px);
+    transform: translate3d(500px, 0px, 0px);
   }
    75% {
-    transform: translate3d(50px, -100px, 0px);
-  }
+    transform: translate3d(750px, 0px, 0px);
+  }*/
    100% {
-    transform: translate3d(0px, 0px, 0px);
+    transform: translate3d(1400px, 0px, 0px);
    }
 }
 
