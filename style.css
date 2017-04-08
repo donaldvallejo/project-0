@@ -60,16 +60,7 @@
     position: absolute;
     animation-name: coprace;
     animation-duration: 9s;
-}
-
-@keyframes race {
-    0% {
-        transform: translate3d(0px, 0px, 0px);
-    }
-    100% {
-        transform: translate3d(1400px, 0px, 0px);
-    }
-}
+  }
 
 @keyframes coprace {
     0% {
