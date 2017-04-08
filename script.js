@@ -1,7 +1,7 @@
-function isOverLapping("cop, cop2, cop3, cop4") {
+// function isOverLapping("cop, cop2, cop3, cop4") {
 
 
-}
+// }
 
 $('document').ready(function() {
     setInterval(movePlane, 20);
@@ -71,9 +71,7 @@ $('document').ready(function() {
         }
     };
 
-    // $( "#target" ).keypress(function() {
-    //   console.log( "Handler for .keypress() called." );
-    // });
+
 
 
     $(window).keydown(function() {
@@ -81,7 +79,7 @@ $('document').ready(function() {
       var carB = $('#carB').offset();
       console.log('almost working')
       if (carA.left >= 1400 || carB.left >= 1400) {
-            $('body').replacewith
+            // $('body').replacewith
         }
 })
 // $("cop, cop2, cop3, cop4").
@@ -89,9 +87,9 @@ $('document').ready(function() {
 // var cop2 =
 // var cop3 =
 // var cop4 =
-if (cop.left >= 1400 || cop2.left >= 1400 || cop3.left >= 1400 || cop4.left >= 1400) {
-    $("window").setInterval(){
-
-    })
-  }
+// if (cop.left >= 1400 || cop2.left >= 1400 || cop3.left >= 1400 || cop4.left >= 1400) {
+//     $("window").setInterval(){
+//
+//     })
+//   }
 });
