@@ -36,7 +36,7 @@
 #cop1 {
     position: absolute;
     animation-name: coprace;
-    animation-duration: 17.5s;
+    animation-duration: 15.5s;
     bottom: 300px;
     left: -50px;
 }
@@ -52,7 +52,7 @@
 #cop3 {
     position: absolute;
     animation-name: coprace;
-    animation-duration: 16.5s;
+    animation-duration: 14s;
     bottom: 500px;
     left: -50px;
 }
@@ -61,7 +61,7 @@
     position: absolute;
     left: -50px;
     animation-name: coprace;
-    animation-duration: 18s;
+    animation-duration: 16s;
   }
 
   #bystander1 {
@@ -173,18 +173,29 @@ body {
             transform: translate3d(0px, 0px, 0px);
         }
         100% {
-            transform: translate3d(1450px, 0px, 0px);
+            transform: translate3d(1400px, 0px, 0px);
         }
     }
 
 #reset {
   font-size: 30px;
-  margin: 0 auto;
   position: fixed;
   bottom: 175px;
   left: 35%;
 }
 
+  #Player1 {
+    font-size: 30px;
+    position: fixed;
+    bottom: 80px;
+    left: 15%;
+  }
+  #Player2 {
+    font-size: 30px;
+    position: fixed;
+    bottom: 80px;
+    left: 55%;
+  }
 /*
 #pane {
 position:relative;
