@@ -1,8 +1,3 @@
-// function isOverLapping("cop, cop2, cop3, cop4") {
-
-
-// }
-
 $('document').ready(function() {
     setInterval(movePlane, 20);
     var keys = {}
@@ -26,17 +21,17 @@ $('document').ready(function() {
             }
             if (direction == 38) {
                 $("#carA").animate({
-                    top: "-=5"
+                    top: "-=4"
                 }, 0);
             }
             if (direction == 39) {
                 $("#carA").animate({
-                    left: "+=10"
+                    left: "+=6"
                 }, 0);
             }
             if (direction == 40) {
                 $("#carA").animate({
-                    top: "+=5"
+                    top: "+=4"
                 }, 0);
             }
         }
@@ -55,17 +50,17 @@ $('document').ready(function() {
             }
             if (direction == 87) {
                 $("#carB").animate({
-                    top: "-=5"
+                    top: "-=4"
                 }, 0);
             }
             if (direction == 68) {
                 $("#carB").animate({
-                    left: "+=10"
+                    left: "+=6"
                 }, 0);
             }
             if (direction == 83) {
                 $("#carB").animate({
-                    top: "+=5"
+                    top: "+=4"
                 }, 0);
             }
         }
@@ -78,9 +73,9 @@ $('document').ready(function() {
       var carA = $('#carA').offset();
       var carB = $('#carB').offset();
       console.log('almost working')
-      if (carA.left >= 1400 || carB.left >= 1400) {
-            // $('body').replacewith
-        }
+      if (carA.left >= 900 || carB.left >= 900) {
+            alert("You got away from the Cops!");
+        };
 })
 // $("cop, cop2, cop3, cop4").
 // var cop =

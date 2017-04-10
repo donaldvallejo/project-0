@@ -15,7 +15,8 @@
 }*/
 
 #carA {
-    margin: 10px;
+    left: 70px;
+    bottom: 560px;
     background: url("carA.png") no-repeat;
     position: absolute;
     /*display: block;*/
@@ -23,8 +24,8 @@
 
 #carB {
     bottom: 400px;
-    left: -10px;
-    margin: 10px;
+    left: 70px;
+    /*margin: 10px;*/
     background: url("carB.png") no-repeat;
     position: absolute;
     /*display: block;*/
@@ -32,45 +33,157 @@
     animation-duration: 5s;*/
 }
 
-#cop {
+#cop1 {
     position: absolute;
     animation-name: coprace;
-    animation-duration: 6s;
-    bottom: 550px;
-    left: -10
+    animation-duration: 17.5s;
+    bottom: 300px;
+    left: -50px;
 }
 
 #cop2 {
     position: absolute;
     animation-name: coprace;
-    animation-duration: 7s;
+    animation-duration: 17s;
     bottom: 400px;
-    left: -10
+    left: -50px;
 }
 
 #cop3 {
     position: absolute;
     animation-name: coprace;
-    animation-duration: 8s;
+    animation-duration: 16.5s;
     bottom: 500px;
-    left: -10
+    left: -50px;
 }
 
 #cop4 {
     position: absolute;
+    left: -50px;
     animation-name: coprace;
-    animation-duration: 9s;
+    animation-duration: 18s;
   }
 
-@keyframes coprace {
-    0% {
-        transform: translate3d(0px, 0px, 0px);
-    }
-    100% {
-        transform: translate3d(1400px, 0px, 0px);
-    }
+  #bystander1 {
+    position: absolute;
+    bottom: 420px;
+    left: 180px;
+    animation-name: coprace;
+    animation-duration: 17s;
+  }
+
+  #bystander2 {
+    position: absolute;
+    bottom: 490px;
+    left: 600px;
+    animation-name: coprace;
+    animation-duration: 17.8s;
+  }
+
+  #bystander3 {
+    position: absolute;
+    bottom: 570px;
+    left: 250px;
+    animation-name: coprace;
+    animation-duration: 20s;
 }
 
+  #bystander4 {
+    position: absolute;
+    bottom: 490px;
+    left: 400px;
+    animation-name: coprace;
+    animation-duration: 19.2s;
+  }
+
+  #bystander5 {
+    position: absolute;
+    bottom: 490px;
+    left: 800px;
+    animation-name: coprace;
+    animation-duration: 20s;
+  }
+
+  #bystander6 {
+    position: absolute;
+    bottom: 300px;
+    left: 400px;
+    animation-name: coprace;
+    animation-duration: 14s;
+  }
+
+  #bystander7 {
+    position: absolute;
+    bottom: 600px;
+    left: 480px;
+    animation-name: coprace;
+    animation-duration: 20s;
+  }
+
+  #bystander8 {
+    position: absolute;
+    bottom: 370px;
+    left: 600px;
+    animation-name: coprace;
+    animation-duration: 20s;
+  }
+
+  #bystander9 {
+    position: absolute;
+    bottom: 385px;
+    left: 810px;
+    animation-name: coprace;
+    animation-duration: 18.3s;
+  }
+
+  #bystander10 {
+    position: absolute;
+    top: 30px;
+    left: 750px;
+    animation-name: coprace;
+    animation-duration: 18s;
+  }
+
+  #bystander11 {
+    position: absolute;
+    bottom: 300px;
+    left: 70px;
+    animation-name: coprace;
+    animation-duration: 16s;
+  }
+
+  #bystander12 {
+    position: absolute;
+    bottom: 300px;
+    left: 760px;
+    animation-name: coprace;
+    animation-duration: 16s;
+  }
+
+
+
+
+body {
+    background-image: url("road.png");
+    background-repeat: repeat-x;
+}
+
+    @keyframes coprace {
+        0% {
+            transform: translate3d(0px, 0px, 0px);
+        }
+        100% {
+            transform: translate3d(1450px, 0px, 0px);
+        }
+    }
+
+#reset {
+  font-size: 30px;
+  margin: 0 auto;
+  position: fixed;
+  bottom: 175px;
+  left: 35%;
+}
 
 /*
 #pane {
