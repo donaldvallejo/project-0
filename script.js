@@ -1,7 +1,4 @@
 $('document').ready(function() {
-    setInterval(movePlane, 20);
-    var keys = {}
-
 
     $(document).keydown(function(e) {
         keys[e.keyCode] = true;
@@ -11,9 +8,11 @@ $('document').ready(function() {
         delete keys[e.keyCode];
     });
 
+    setInterval(movePlane, 20);
+    var keys = {}
     function movePlane() {
         for (var direction in keys) {
-            if (!keys.hasOwnProperty(direction)) continue;
+            if (!keys.hasOwnProperty(direction));
             if (direction == 37) {
                 $("#carA").animate({
                     left: "-=5"
@@ -26,7 +25,7 @@ $('document').ready(function() {
             }
             if (direction == 39) {
                 $("#carA").animate({
-                    left: "+=6"
+                    left: "+=6.5"
                 }, 0);
             }
             if (direction == 40) {
@@ -42,7 +41,7 @@ $('document').ready(function() {
 
     function movecar() {
         for (var direction in keys) {
-            if (!keys.hasOwnProperty(direction)) continue;
+            if (!keys.hasOwnProperty(direction));
             if (direction == 65) {
                 $("#carB").animate({
                     left: "-=5"
@@ -55,7 +54,7 @@ $('document').ready(function() {
             }
             if (direction == 68) {
                 $("#carB").animate({
-                    left: "+=6"
+                    left: "+=6.5"
                 }, 0);
             }
             if (direction == 83) {
@@ -65,18 +64,15 @@ $('document').ready(function() {
             }
         }
     };
-
-
-
-
+          // win condition stopped working :(
     $(window).keydown(function() {
-        var carA = $('#carA').offset();
-        var carB = $('#carB').offset();
-        console.log('almost working')
-        if (carA.left >= 900 || carB.left >= 900) {
-            alert("You got away from the Cops!");
-        };
-    })
+      var carA = $('#carA').offset();
+      var carB = $('#carB').offset();
+      console.log('almost working')
+      if (carA.left >= 1000 || carB.left >= 1000) {
+          alert("you got away from the cops");
+        }
+})
     // $("cop, cop2, cop3, cop4").
     // var cop =
     // var cop2 =

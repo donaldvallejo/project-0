@@ -174,10 +174,17 @@ body {
     }
 }
 
+#instructions {
+  font-size: 30px;
+  position: fixed;
+  bottom: 230px;
+  left: 38%;
+}
+
 #reset {
     font-size: 30px;
     position: fixed;
-    bottom: 175px;
+    bottom: 165px;
     left: 35%;
 }
 
