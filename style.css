@@ -62,25 +62,25 @@
     left: -50px;
     animation-name: coprace;
     animation-duration: 16s;
-  }
+}
 
-  #bystander1 {
+#bystander1 {
     position: absolute;
     bottom: 420px;
     left: 180px;
     animation-name: coprace;
     animation-duration: 17s;
-  }
+}
 
-  #bystander2 {
+#bystander2 {
     position: absolute;
     bottom: 490px;
     left: 600px;
     animation-name: coprace;
     animation-duration: 17.8s;
-  }
+}
 
-  #bystander3 {
+#bystander3 {
     position: absolute;
     bottom: 570px;
     left: 250px;
@@ -88,114 +88,114 @@
     animation-duration: 20s;
 }
 
-  #bystander4 {
+#bystander4 {
     position: absolute;
     bottom: 490px;
     left: 400px;
     animation-name: coprace;
     animation-duration: 19.2s;
-  }
+}
 
-  #bystander5 {
+#bystander5 {
     position: absolute;
     bottom: 490px;
     left: 800px;
     animation-name: coprace;
     animation-duration: 20s;
-  }
+}
 
-  #bystander6 {
+#bystander6 {
     position: absolute;
     bottom: 300px;
     left: 400px;
     animation-name: coprace;
     animation-duration: 14s;
-  }
+}
 
-  #bystander7 {
+#bystander7 {
     position: absolute;
     bottom: 600px;
     left: 480px;
     animation-name: coprace;
     animation-duration: 20s;
-  }
+}
 
-  #bystander8 {
+#bystander8 {
     position: absolute;
     bottom: 370px;
     left: 600px;
     animation-name: coprace;
     animation-duration: 20s;
-  }
+}
 
-  #bystander9 {
+#bystander9 {
     position: absolute;
     bottom: 385px;
     left: 810px;
     animation-name: coprace;
     animation-duration: 18.3s;
-  }
+}
 
-  #bystander10 {
+#bystander10 {
     position: absolute;
     top: 30px;
     left: 750px;
     animation-name: coprace;
     animation-duration: 18s;
-  }
+}
 
-  #bystander11 {
+#bystander11 {
     position: absolute;
     bottom: 300px;
     left: 70px;
     animation-name: coprace;
     animation-duration: 16s;
-  }
+}
 
-  #bystander12 {
+#bystander12 {
     position: absolute;
     bottom: 300px;
     left: 760px;
     animation-name: coprace;
     animation-duration: 16s;
-  }
-
-
-
+}
 
 body {
     background-image: url("road.png");
     background-repeat: repeat-x;
 }
 
-    @keyframes coprace {
-        0% {
-            transform: translate3d(0px, 0px, 0px);
-        }
-        100% {
-            transform: translate3d(1400px, 0px, 0px);
-        }
+@keyframes coprace {
+    0% {
+        transform: translate3d(0px, 0px, 0px);
     }
-
-#reset {
-  font-size: 30px;
-  position: fixed;
-  bottom: 175px;
-  left: 35%;
+    100% {
+        transform: translate3d(1400px, 0px, 0px);
+    }
 }
 
-  #Player1 {
+#reset {
+    font-size: 30px;
+    position: fixed;
+    bottom: 175px;
+    left: 35%;
+}
+
+#Player1 {
     font-size: 30px;
     position: fixed;
     bottom: 80px;
     left: 15%;
-  }
-  #Player2 {
+}
+
+#Player2 {
     font-size: 30px;
     position: fixed;
     bottom: 80px;
     left: 55%;
-  }
+}
+
+
 /*
 #pane {
 position:relative;

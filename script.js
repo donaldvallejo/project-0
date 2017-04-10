@@ -70,21 +70,21 @@ $('document').ready(function() {
 
 
     $(window).keydown(function() {
-      var carA = $('#carA').offset();
-      var carB = $('#carB').offset();
-      console.log('almost working')
-      if (carA.left >= 900 || carB.left >= 900) {
+        var carA = $('#carA').offset();
+        var carB = $('#carB').offset();
+        console.log('almost working')
+        if (carA.left >= 900 || carB.left >= 900) {
             alert("You got away from the Cops!");
         };
-})
-// $("cop, cop2, cop3, cop4").
-// var cop =
-// var cop2 =
-// var cop3 =
-// var cop4 =
-// if (cop.left >= 1400 || cop2.left >= 1400 || cop3.left >= 1400 || cop4.left >= 1400) {
-//     $("window").setInterval(){
-//
-//     })
-//   }
+    })
+    // $("cop, cop2, cop3, cop4").
+    // var cop =
+    // var cop2 =
+    // var cop3 =
+    // var cop4 =
+    // if (cop.left >= 1400 || cop2.left >= 1400 || cop3.left >= 1400 || cop4.left >= 1400) {
+    //     $("window").setInterval(){
+    //
+    //     })
+    //   }
 });
