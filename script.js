@@ -65,11 +65,11 @@ $('document').ready(function() {
         }
     };
           // win condition stopped working :(
-    $(window).keydown(function() {
+    $(document).keydown(function() {
       var carA = $('#carA').offset();
       var carB = $('#carB').offset();
       console.log('almost working')
-      if (carA.left >= 1000 || carB.left >= 1000) {
+      if ($(carA.left) >= 1000 || carB.left >= 1000) {
           alert("you got away from the cops");
         }
 })
